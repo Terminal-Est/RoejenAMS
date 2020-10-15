@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -48,5 +49,14 @@ namespace RoejenAMS
             db.InsertIntoTab(textOne, textTwo);
         }
 
+        private void B3_OnClick(object sender, RoutedEventArgs e)
+        {
+            
+            OpenFileDialog dg = new OpenFileDialog();
+            dg.InitialDirectory = "c:\\";
+            dg.Filter = "Excel files (*.xls; *.xlsx)|*.xls;*.xlsx|All Files (*.*)|*.*";
+            dg.FilterIndex = 2;
+            dg.RestoreDirectory = true;             
+        }
     }
 }
