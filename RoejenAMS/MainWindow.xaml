@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Roejen Asset Management" Height="1080" Width="1920">
     <Grid>
-        <MenuItem Header="File" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Style=""/>
+        <MenuItem Header="File" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100"/>
         <StackPanel VerticalAlignment="Center">
             <Button x:Name="B1" Content="TEST" Width="150" ClickMode="Press" Click="B1_OnClick" Background="Aqua" Margin="5,5,5,5"/>
             <Button x:Name="B2" Content="Insert" Width="150" ClickMode="Press" Click="B2_OnClick" Background="Aqua" Margin="5,5,5,5" />
